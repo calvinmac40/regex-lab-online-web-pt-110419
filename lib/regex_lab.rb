@@ -10,9 +10,9 @@ text.scan(/un\w*ing/)
 #binding.pry
 end
 
-# def words_five_letters_long(text)
-# text.scan(/)
-# end
+def words_five_letters_long(text)
+text.scan(/)
+end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
 
